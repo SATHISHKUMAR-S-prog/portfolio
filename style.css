@@ -1,0 +1,130 @@
+
+.container {
+    
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.6;
+}
+
+#body{
+    background-image: url(background-image-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.list{
+    text-align: center;
+}
+
+.Navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu{
+    float: left;
+}
+
+.con{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.con:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04aa6d;
+}
+
+#profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url(profile.jpg) no-repeat;
+    background-size: 200px 205px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    border: 3px solid #585858;
+    margin-top: 50px;
+    margin-left: -12.5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header {
+    width: 100%;
+}
+
+.header-wrapper {
+    display: flex;
+  
+}
+
+.profile-img {
+    opacity: 1;
+    transform: none;
+}
+
+.profile-img.is-scrolled-out {
+    opacity: 0;
+    
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+}
+
+#contact {
+    position: relative;
+}
+
+.contact {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background-color: #591c02;
+    padding: 20px;
+    color: snow;
+}
+
+.cont {
+    text-align: center;
+}
+
+.cont-info{
+    margin-left: 40%;
+}
+
+.heading {
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 14px;
+    text-align: center;
+}
+
+.svg {
+    margin-right: 5px;
+    margin-bottom: -5px;
+}

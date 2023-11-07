@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+        <meta name="viewport" content="width=1000" />
+        <meta name="keywords" content="Sathish, Sathishkumar, Sathish profile, Sathishkumar profile, Sathish resume, Sathishkumar resume">
+        <title>SATHISHKUMAR - Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="background_image" href="./background-image-1.jpg">
+        <link rel="profile_image" href="./profile.jpg">
+        <link rel="Contact_image" href="./phone.svg">
+        <link rel="mail_image" href="./mail.svg">
+        <link rel="LinkedIn_image" href="./linkedin.svg"> 
+        <link rel="Profile_file" href="./Profile.html">
+        <link rel="Education_file" href="./Education.html">
+        <link rel="Language_file" href="./Language.html">
+        <link rel="Computer Skills_file" href="./Computer-Skills.html">
+        <link rel="Internship_file" href="./Internship.html">
+        <link rel="Course_file" href="./Course.html">
+        <link rel="Project_file" href="./Project.html">
+        <link rel="Home_file" href="./index.html">
+        <link rel="Contact_file" href="./index.html/#contact">
+        <link rel="shortcut icon" href="./logo.svg" type="image/x-icon">
+    </head>
+        <body id="body">
+
+            <div class="header">
+                <div class="header-wrapper">
+                    <div id="profile-img" class="profile-img">
+                    </div> 
+                </div>
+            </div>
+
+            <div class="body">
+            
+            <!------------------ Profile --------------------->
+
+                <div class="container">
+                    <div class="profile">
+                        <h2 class="heading">Profile</h2>
+                        <p class="paragraph">I am <strong>Sathishkumar</strong></p>
+                        <p class="paragraph">Electronics and Communication Engineering student. I consider myself a responsible and orderly person. To secure a challenging position in my field of education where I can effectively contribute my skills and knowledge to the development of the organization's growth.
+                        </p>
+                    </div>
+                </div> 
+
+            <!------------------ Education ------------------->
+
+                <div class="container" id="Education">
+                    <div class="Education">
+                        <h2 class="heading">Education</h2>
+                        <p class="paragraph">Electronics and communication Engineering (Career in progress)</p>
+                        <p class="paragraph">Government College Of Engineering, Thanjavur.</p>
+                        <p class="paragraph">2020-2024</p>
+                    </div>
+                </div>
+
+            <!------------------- Language -------------------->
+
+                <div class="container" id="Language">
+                    <div class="Language">
+                        <h2 class="heading">Language</h2>
+                        <p class="list">Tamil</p>
+                        <p class="list">English</p>
+                    </div>
+                </div>
+
+            <!-------------------- Computer skills ------------->
+
+                <div class="container" id="Computer skills">
+                    <div class="coumputer skills">
+                        <h2 class="heading">Computer Skills</h2>
+                        <p class="list">Python</p>
+                        <p class="list">Java</p>
+                        <p class="list">Frontend</p>
+                    </div>
+                </div>
+
+            <!--------------------- Internship ------------------>
+                
+                <div class="container" id="Internship">
+                    <div class="Internship">
+                        <h2 class="heading">Internship Experience</h2>
+                        <p class="paragraph"><strong>VACT TECHNOLOGIES PRIVATE LIMITED, COIMBATORE</strong> Participation in design and simulation using Embedded training program based on Embedded</p>
+                    </div>
+                </div>
+
+            <!-------------------- Course ------------------------>
+
+                <div class="container" id="Course">
+                    <div class="Course">
+                        <h2 class="heading">Course</h2>
+                        <p class="list">Cyber Security</p>
+                        <p class="list">Artificial Intelligent</p>
+                        <p class="list">Semiconductor Technology</p>
+                    </div>
+                </div>
+
+            <!----------------------- Project --------------------->
+
+            <div class="container" id="Project">
+                <div class="Project">
+                    <h2 class="heading">Project</h2>
+                    <p class="paragraph">Project on <strong>Prevention of accidents in Hair pin bends using ESP32 microcontroller</strong></p>
+                </div>
+            </div>
+
+             <!------------------ Contact --------------------->
+
+             <div id="contact">
+                <div class="contact">
+                    <h2 class="cont">Contact</h2>
+                    <p class="cont-info"><img class="svg" src="phone.svg" width="24" height="24" viewBox="24 24 0 0">  <a href="tel:+918940007259">+91894007259</a> </p>
+                    <p class="cont-info"><img class="svg" src="mail.svg"  width="24" height="24" viewBox="24 24 0 0">  <a href="mailto:sathishs032003@gmail.com?subject=From%20your%20website">sathishs032003@gmail.com</a> </p>
+                    <p class="cont-info"><img class="svg" src="linkedin.svg"  width="24" height="24" viewBox="24 24 0 0">  <a href="https://in.linkedin.com/in/sathishkumar-s-069077214">SATHISHKUMAR S</a> </p>
+                </div>
+            </div>
+            </div>
+
+            <!-------------------- Navigation -------------------->
+
+            <ul class="Navigation">
+                <nav>
+                    <li class="menu"><a class="con" href="index.html">Home</a></li>
+                    <li class="menu"><a class="con" href="Profile.html">Profile</a></li>
+                    <li class="menu"><a class="con" href="Education.html">Education</a></li>
+                    <li class="menu"><a class="con" href="Language.html">Language</a></li>
+                    <li class="menu"><a class="con" href="Computer-skills.html">Computer skills</a></li>
+                    <li class="menu"><a class="con" href="Internship.html">Internship</a></li>
+                    <li class="menu"><a class="con" href="Course.html">Course<li></a></li>
+                    <li class="menu"><a class="con" href="Project.html">Project<li></a></li>
+                    <li class="menu"><a class="con" href="#contact">Contact</a></li>
+                </nav>
+            </ul>
+
+            <!------------------------ script --------------------->
+
+            <script>
+                const image = document.querySelector('.profile-img');
+                window.addEventListener('scroll',()=> {
+                    const windowTop = window.scrollY;
+                    const imageTop = image.getBoundingClientRect().top;
+
+                    if(windowTop > imageTop) {
+                        image.classList.add('is-scrolled-out');
+                    }
+                    else {
+                        image.classList.remove('is-scrolled-out');
+                    }
+                });
+            </script>
+
+            <!------------------------ END ------------------------>
+        </body>
+</html> 
